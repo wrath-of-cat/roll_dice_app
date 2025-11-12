@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_1/roll_dice.dart';
+import 'package:roll_dice_app/roll_dice.dart';
 
 class ContainerGradient extends StatelessWidget {
   const ContainerGradient(this.color1, this.color2, {super.key});
@@ -19,9 +19,7 @@ class ContainerGradient extends StatelessWidget {
           end: Alignment.bottomRight,
         ),
       ),
-      child: Center(
-        child: RollDice(),
-      ),
+      child: Center(child: RollDice()),
     );
   }
 }
